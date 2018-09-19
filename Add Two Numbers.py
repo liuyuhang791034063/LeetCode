@@ -91,7 +91,6 @@ class Solution:
         if l2 is None:
             return l1
         head = ListNode(0)
-        #
         l = head
         carry = 0
         # 当两个链表为空并且无进位，则退出循环
