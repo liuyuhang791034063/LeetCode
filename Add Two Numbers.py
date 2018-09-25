@@ -112,6 +112,7 @@ class Solution:
             l = l.next
         return head
 
+
 # list获取链表
 def getLineGraph(list):
     n = len(list)
