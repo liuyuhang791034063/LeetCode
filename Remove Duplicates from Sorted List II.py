@@ -88,6 +88,7 @@ class ListNode(object):
 #                         p = p.next
 #             first, second = second, second.next
 #         return head2.next
+
 class Solution(object):
     def deleteDuplicates(self, head):
         """
@@ -102,6 +103,7 @@ class Solution(object):
                 val = head.val
                 while head and head.val == val:
                     head = head.next
+                # 这一步是防止链表尾全部相同时，新链表尾节点的next不为空
                 p.next = head
             else:
                 p.next = head
