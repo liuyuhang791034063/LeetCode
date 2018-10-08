@@ -85,13 +85,16 @@ class TreeNode:
 
 class Solution:
     def SearchSimiler(self, p1, p2):
+        # B树为空，则存在
         if p2 is None:
             return True
         if p1 is None:
             return p1 == p2
         flag = False
         if p1.val == p2.val:
+            # 查找该节点的左右节点
             flag = self.SearchSimiler(p1.left, p2.left) and self.SearchSimiler(p1.right, p2.right)
+        # 如果flag为True，返回True，否则继续从左节点开始查找，如果还失败，从右节点开始查找
         return flag or self.SearchSimiler(p1.left, p2) or self.SearchSimiler(p1.right, p2)
     def HasSubtree(self, pRoot1, pRoot2):
         """
@@ -132,6 +135,7 @@ class Solution:
         self.Createtreelist(pRoot2, False)
         p = self.Root2_list
         q = self.Root1_list
+        # 如果为空树直接返回 false
         if len(p) is 0:
             return False
         note2 = 0
