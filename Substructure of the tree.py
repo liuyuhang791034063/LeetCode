@@ -83,7 +83,6 @@ class TreeNode:
         self.left = None
         self.right = None
 
-
 class Solution:
     def SearchSimiler(self, p1, p2):
         if p2 is None:
@@ -104,3 +103,63 @@ class Solution:
         if pRoot1 is None or pRoot2 is None:
             return False
         return self.SearchSimiler(pRoot1, pRoot2)
+
+
+class Solution:
+    def __init__(self):
+        self.Root1_list = []
+        self.Root2_list = []
+
+    def Createtreelist(self, root, note):
+        if root is None:
+            return
+        if note is True:
+            self.Root1_list.append(root.val)
+            self.Createtreelist(root.left, True)
+            self.Createtreelist(root.right, True)
+        else:
+            self.Root2_list.append(root.val)
+            self.Createtreelist(root.left, False)
+            self.Createtreelist(root.right, False)
+
+    def HasSubtree(self, pRoot1, pRoot2):
+        """
+        :param pRoot1: TreeNode
+        :param pRoot2: TreeNode
+        :return:
+        """
+        self.Createtreelist(pRoot1, True)
+        self.Createtreelist(pRoot2, False)
+        p = self.Root2_list
+        q = self.Root1_list
+        if len(p) is 0:
+            return False
+        note2 = 0
+        for i in range(len(q)):
+            if note2 == len(p):
+                break
+            if q[i] == p[note2]:
+                note2 += 1
+            else:
+                if q[i] == p[0]:
+                    continue
+                note2 = 0
+        if note2 == len(p):
+            return True
+        return False
+
+
+if __name__ == '__main__':
+    p1 = TreeNode(8)
+    p1.left = TreeNode(8)
+    p1.right = TreeNode(7)
+    temp = p1.left
+    temp.left = TreeNode(9)
+    temp.right = TreeNode(2)
+    temp = temp.right
+    temp.left = TreeNode(4)
+    temp.right = TreeNode(7)
+    p2 = TreeNode(8)
+    p2.left = TreeNode(9)
+    p2.right = TreeNode(2)
+    print(Solution().HasSubtree(p1, p2))
