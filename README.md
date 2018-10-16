@@ -27,4 +27,4 @@ LeetCode解题记录（python）
  - 2018.10.14 构建乘积数组（Building a product array)
  - 2018.10.15 两个链表的第一个公共结点（The first public node of the two linked lists）
  - 2018.10.16 把数组拍成最小的数（Arrange the array into the smallest number）
- 
+ - 2018.10.16 丑数（Ugly Number）
