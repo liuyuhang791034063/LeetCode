@@ -38,3 +38,16 @@ class Solution:
             res.append(string)
         for i in range(len(ss)):
             self.fun(ss[:i] + ss[i + 1:], res, string + ss[i])
+
+
+# LeetCode
+class Solution:
+    def permute(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: List[List[int]]
+        """
+        res = []
+        for i in itertools.permutations(nums):
+            res.append(i)
+        return res
