@@ -29,4 +29,5 @@ LeetCode解题记录（python）
  - 2018.10.16 把数组拍成最小的数（Arrange the array into the smallest number）
  - 2018.10.16 丑数（Ugly Number）
  - 2018.10.17 二叉树中和为某一值的路径 （The binary tree neutralizes the path to a certain value）
+ - 2018.10.17 字符串的排列（Arrangement of strings）
  
