@@ -28,3 +28,5 @@ LeetCode解题记录（python）
  - 2018.10.15 两个链表的第一个公共结点（The first public node of the two linked lists）
  - 2018.10.16 把数组拍成最小的数（Arrange the array into the smallest number）
  - 2018.10.16 丑数（Ugly Number）
+ - 2018.10.17 二叉树中和为某一值的路径 （The binary tree neutralizes the path to a certain value）
+ 
