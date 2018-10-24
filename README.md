@@ -34,3 +34,4 @@ LeetCode解题记录（python）
  - 2018.10.21 二叉搜索树与双向链表(Binary search tree and doubly linked list)
  - 2018.10.22 数组中出现次数超过一半的数字(Number of occurrences in the array that exceeds half)
  - 2018.10.22 最小的K个数(Minimum K number)
+ - 2018.10.24 连续子数组的最大和(The largest sum of consecutive subarrays)
