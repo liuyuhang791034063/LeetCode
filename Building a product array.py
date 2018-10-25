@@ -9,6 +9,8 @@
    Change Activity:  2018/10/16
 -------------------------------------------------
 """
+from functools import reduce
+
 __author__ = 'God'
 
 
