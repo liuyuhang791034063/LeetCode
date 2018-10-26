@@ -36,3 +36,4 @@ LeetCode解题记录（python）
  - 2018.10.22 最小的K个数(Minimum K number)
  - 2018.10.24 连续子数组的最大和(The largest sum of consecutive subarrays)
  - 2018.10.24 第一个只出现一次的字符(The first character that appears only once)
+ - 2018.10.25 数组中的逆序对(Reverse order in array)
