@@ -37,3 +37,5 @@ LeetCode解题记录（python）
  - 2018.10.24 连续子数组的最大和(The largest sum of consecutive subarrays)
  - 2018.10.24 第一个只出现一次的字符(The first character that appears only once)
  - 2018.10.25 数组中的逆序对(Reverse order in array)
+ - 2018.10.26 数字在排序数组中出现的次数(The number of times the number appears in the sorted array)
+ 
