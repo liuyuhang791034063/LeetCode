@@ -73,4 +73,4 @@ class Solution1:
 
 
 if __name__ == '__main__':
-    print(Solution1().InversePairs([1,2,3,4,5,6,7,0]))
+    print(Solution1().InversePairs([1, 2, 3, 4, 5, 6, 7, 0]))
