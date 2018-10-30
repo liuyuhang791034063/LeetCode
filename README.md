@@ -39,4 +39,4 @@ LeetCode解题记录（python）
  - 2018.10.25 数组中的逆序对(Reverse order in array)
  - 2018.10.26 数字在排序数组中出现的次数(The number of times the number appears in the sorted array)
  - 2018.10.26 和为S的连续正数序列(And continuous positive sequence of S)
- 
+ - 2018.10.29 和为S的两个数字(And two numbers for S)
