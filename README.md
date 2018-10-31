@@ -43,3 +43,4 @@ LeetCode解题记录（python）
  - 2018.10.30 左旋转字符串(Left rotation string)
  - 2018.10.30 翻转单词顺序列(Flip word sequence column)
  - 2018.10.31 扑克牌顺子(Playing cards straight)
+ - 2018.10.31 孩子们的游戏(Children's games)
