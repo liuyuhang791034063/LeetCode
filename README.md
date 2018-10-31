@@ -42,3 +42,4 @@ LeetCode解题记录（python）
  - 2018.10.29 和为S的两个数字(And two numbers for S)
  - 2018.10.30 左旋转字符串(Left rotation string)
  - 2018.10.30 翻转单词顺序列(Flip word sequence column)
+ - 2018.10.31 扑克牌顺子(Playing cards straight)
