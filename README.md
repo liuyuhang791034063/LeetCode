@@ -47,4 +47,4 @@ LeetCode解题记录（python）
  - 2018.11.1 数组中重复的数字(Duplicate numbers in the array)
  - 2018.11.1 正则表达式匹配(Regular expression matching)
  - 2018.11.2 表示数值的字符串(a string representing a numeric value)
- 
+ - 2018.11.2 字符流中第一个不重复的字符(The first non-repeating character in the character stream)
