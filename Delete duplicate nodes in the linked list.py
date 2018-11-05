@@ -14,6 +14,14 @@ __author__ = 'God'
 '''
 暴力遍历
 '''
+
+
+class ListNode:
+    def __init__(self, x):
+        self.val = x
+        self.next = None
+
+
 class Solution:
     def deleteDuplication(self, pHead):
         res = []
