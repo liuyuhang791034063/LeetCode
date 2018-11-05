@@ -49,3 +49,4 @@ LeetCode解题记录（python）
  - 2018.11.2 表示数值的字符串(a string representing a numeric value)
  - 2018.11.2 字符流中第一个不重复的字符(The first non-repeating character in the character stream)
  - 2018.11.5 链表中环的入口结点(The entry node of the ring in the list)
+ - 2018.11.5 删除链表中重复的结点(Delete duplicate nodes in the linked list)
