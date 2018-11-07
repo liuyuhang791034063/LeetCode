@@ -50,3 +50,4 @@ LeetCode解题记录（python）
  - 2018.11.2 字符流中第一个不重复的字符(The first non-repeating character in the character stream)
  - 2018.11.5 链表中环的入口结点(The entry node of the ring in the list)
  - 2018.11.5 删除链表中重复的结点(Delete duplicate nodes in the linked list)
+ - 2018.11.7 二叉树的下一个结点(The next node of the binary tree)
