@@ -52,3 +52,4 @@ LeetCode解题记录（python）
  - 2018.11.5 删除链表中重复的结点(Delete duplicate nodes in the linked list)
  - 2018.11.7 二叉树的下一个结点(The next node of the binary tree)
  - 2018.11.7 对称的二叉树(Symmetric binary tree)
+ - 2018.11.9 按之字形顺序打印二叉树(Print binary trees in zigzag order)
