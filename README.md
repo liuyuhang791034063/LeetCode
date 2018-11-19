@@ -54,3 +54,4 @@ LeetCode解题记录（python）
  - 2018.11.7 对称的二叉树(Symmetric binary tree)
  - 2018.11.9 按之字形顺序打印二叉树(Print binary trees in zigzag order)
  - 2018.11.9 把二叉树打印成多行(Print a binary tree into multiple lines)
+ - 2018.11.19 序列化二叉树(Serialized binary tree)
