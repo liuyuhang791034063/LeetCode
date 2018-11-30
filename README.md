@@ -56,3 +56,4 @@ LeetCode解题记录（python）
  - 2018.11.9 把二叉树打印成多行(Print a binary tree into multiple lines)
  - 2018.11.19 序列化二叉树(Serialized binary tree)
  - 2018.11.29 二叉搜索树的第k个结点(The kth node of the binary search tree)
+ - 2018.11.30 数据流中的中位数(Median in the data stream)
