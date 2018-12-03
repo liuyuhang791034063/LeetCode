@@ -58,3 +58,4 @@ LeetCode解题记录（python）
  - 2018.11.29 二叉搜索树的第k个结点(The kth node of the binary search tree)
  - 2018.11.30 数据流中的中位数(Median in the data stream)
  - 2018.12.2 滑动窗口的最大值(Maximum value of the sliding window)
+ - 2018.12.3 矩阵中的路径(Path in the matrix)
