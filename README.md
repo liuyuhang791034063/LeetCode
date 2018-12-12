@@ -63,3 +63,4 @@ LeetCode解题记录（python）
  - 2018.12.7 无重复字符的最长子串(Longest Substring Without Repeating Characters)
  - 2018.12.10 寻找两个有序数组的中位数(Median of Two Sorted Arrays)\
  - 2018.12.11 整数反转(Reverse Integer)
+ - 2018.12.12 回文字符串(Palindrome Number)
