@@ -65,3 +65,4 @@ LeetCode解题记录（python）
  - 2018.12.11 整数反转(Reverse Integer)
  - 2018.12.12 回文字符串(Palindrome Number)
  - 2018.12.15 盛最多水的容器(Container With Most Water)
+ - 2018.12.16 最长公共前缀(Longest Common Prefix)
