@@ -65,3 +65,4 @@ LeetCode解题记录（python）
  - 2018.12.16 最长公共前缀(Longest Common Prefix)
  - 2018.12.19 最接近的三数之和(3Sum Closest)
  - 2018.12.20 有效的括号(Valid Parentheses)
+ - 2018.12.21 岛屿的个数(Number of Islands)
