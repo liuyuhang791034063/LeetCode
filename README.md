@@ -68,4 +68,4 @@ LeetCode解题记录（python）
  - 2018.12.21 岛屿的个数(Number of Islands)
  - 2018.12.26 合并两个有序链表(Merge Two Sorted Lists)
  - 2018.12.27 合并K个排序链表(Merge k Sorted Lists)
- - 2018.12.28 (Remove Duplicates from Sorted Array)
+ - 2018.12.28 删除排序数组中的重复项(Remove Duplicates from Sorted Array)
