@@ -11,27 +11,71 @@
 """
 __author__ = 'God'
 
-'''
-尝试使用前后节点遍历列表
-'''
+
+'''On的办法'''
 
 
 class Solution:
-    def FindGreatestSumOfSubArray(self, array):
-        if not array:
-            return 0
-        temp = 0
-        resMax = -0xffffffff
-        for i in array:
-            if temp <= 0:  # 如果之前的和小于零,则让和等于现在i值
-                temp = i
-            else:
-                temp += i
-            if temp > resMax:
-                resMax = temp
-        return resMax
+    def maxSubArray(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: int
+        """
+        num_sum = 0
+        res = -float("inf")
+
+        for i in nums:
+            num_sum += i
+            if num_sum > res:
+                res = num_sum
+            if num_sum < 0:
+                num_sum = 0
+
+"""
+分治法
+python效率极低
+"""
+
+
+class Solution:
+    def subMaxSubArray(self, nums, low, high):
+        if low == high:
+            return nums[low]
+        mid = (low + high) // 2
+        leftvalue = self.subMaxSubArray(nums, low, mid)
+        rightvalue = self.subMaxSubArray(nums, mid+1, high)
+        midleft = nums[mid]
+        sumleft = nums[mid]
+        i = mid-1
+        while i >= low:
+            sumleft += nums[i]
+            i -= 1
+            if midleft < sumleft:
+                midleft = sumleft
+        midright = nums[mid+1]
+        sumright = nums[mid+1]
+        i = mid+2
+        while i <= high:
+            sumright += nums[i]
+            i += 1
+            if midright < sumright:
+                midright = sumright
+        midvalue = midleft + midright
+        if midvalue >= leftvalue and midvalue >= rightvalue:
+            return midvalue
+        elif leftvalue >= midvalue and leftvalue >= rightvalue:
+            return leftvalue
+        else:
+            return rightvalue
+
+    def maxSubArray(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: int
+        """
+        return self.subMaxSubArray(nums, 0, len(nums)-1)
 
 
 if __name__ == '__main__':
-    a = Solution().FindGreatestSumOfSubArray([1, -2, 3, 10, -4, 7, 2, -5])
+    a = Solution().maxSubArray([-2,1,-3,4,-1,2,1,-5,4])
     print(a)
