@@ -14,27 +14,20 @@ __author__ = 'God'
 
 class Solution:
     # matrix类型为二维列表，需要返回列表
-    def printMatrix(self, matrix):
-        # write code here
+    def spiralOrder(self, matrix):
         result = []
         while matrix:
             result += matrix.pop(0)
-            if not matrix or not matrix[0]:
+            if not matrix:
                 break
             matrix = self.getNewMatrix(matrix)
         return result
 
     def getNewMatrix(self, m):
-        height = len(m[0])
-        note = height-1
-        result = []
-        for i in range(height):
-            temp = []
-            for j in m:
-                temp.append(j[note])
-            result.append(temp)
-            note -= 1
-        return result
+        res = []
+        for i in range(len(m[0])-1, -1, -1):
+            res.append([x[i] for x in m])
+        return res
 
 
 if __name__ == '__main__':
