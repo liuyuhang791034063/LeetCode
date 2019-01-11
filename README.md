@@ -1,7 +1,7 @@
 # LeetCode
 ---
 
-LeetCode解题记录（python）
+剑指offer LeetCode解题记录（python）
 
  - 2018.9.19 两数之和（Two Sum）
  - 2018.9.19 两数相加（Add Two Numbers）
