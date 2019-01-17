@@ -71,3 +71,4 @@
  - 2018.12.28 删除排序数组中的重复项(Remove Duplicates from Sorted Array)
  - 2018.1.2 搜索旋转排序数组(Search in Rotated Sorted Array)
  - 2018.1.11 螺旋矩阵 II(Spiral Matrix II)
+ - 2018.1.17 旋转链表(Rotate List)
