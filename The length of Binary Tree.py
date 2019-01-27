@@ -22,18 +22,17 @@ class Solution:
 class Solution:
     def TreeDepth(self, pRoot):
         # write code here
-        return self.depth(pRoot)
-
-    def depth(root):
-        if root is None:
+        if pRoot is None:
             return 0
-        dq = list()
-        dq.append((root, 1))
-        while dq:
-            node, layer = dq.pop(0)
-            deep = layer
-            if node.left:
-                dq.append((node.left, layer + 1))
-            if node.right:
-                dq.append((node.right, layer + 1))
-        return deep
+        stack = []
+        if pRoot is not None:
+            stack.append((1, pRoot))
+        res_depth = 0
+        while stack:
+            depth, pRoot = stack.pop()
+            if pRoot is not None:
+                res_depth = max(res_depth, depth)
+                stack.append((depth + 1, pRoot.left))
+                stack.append((depth + 1, pRoot.right))
+
+        return res_depth
