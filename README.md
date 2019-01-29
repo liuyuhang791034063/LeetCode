@@ -76,4 +76,5 @@
  - 2018.1.24 子集合(Subsets)
  - 2018.1.25 合并两个有序数组(Merge Sorted Array)
  - 2018.1.26 格雷编码(Gray Code) 
- - 2018.1.28 (Best Time to Buy and Sell Stock)
+ - 2018.1.28 买卖股票的最佳时机(Best Time to Buy and Sell Stock)
+ - 2018.1.29 买卖股票的最佳时机 II(Best Time to Buy and Sell Stock II)
