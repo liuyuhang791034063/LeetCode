@@ -11,7 +11,10 @@
 """
 __author__ = 'God'
 
+
 from collections import Counter
+
+
 class Solution:
     def FirstNotRepeatingChar(self, s):
         c = {}
@@ -28,6 +31,17 @@ class Solution:
     # 一行版本
     def FirstNotRepeatingChar_onerow(self, s):
         return s.index(list(filter(lambda x: s.count(x) == 1, s))[0]) if s else -1
+
+    # 异或
+    def singleNumber(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: int
+        """
+        res = 0
+        for i in nums:
+            res ^= i
+        return res
 
 
 if __name__ == '__main__':
