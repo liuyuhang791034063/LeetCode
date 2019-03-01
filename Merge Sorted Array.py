@@ -21,6 +21,7 @@ class Solution:
         :type n: int
         :rtype: void Do not return anything, modify nums1 in-place instead.
         """
+        # 从后往前算的方法
         p = m + n - 1
         m -= 1
         n -= 1
@@ -38,5 +39,8 @@ class Solution:
             n -= 1
             p -= 1
 
+        # 快捷办法
+        nums1[m:] = nums2
+        nums1.sort()
 
 Solution().merge([4, 5, 6, 0, 0, 0], 3, [1, 2, 3], 3)
