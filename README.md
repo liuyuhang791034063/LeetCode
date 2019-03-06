@@ -88,3 +88,4 @@
  - 2019.2.28 搜索二维矩阵 II(Search the two-dimensional matrix II)
  - 2019.3.3 寻找最常用字符(Find Common Characters)
  - 2019.3.4 验证回文字符串(Verify the palindrome string)
+ - 2019.3.6 分割回文字符串(Palindrome string segmentation)
