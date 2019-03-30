@@ -14,6 +14,8 @@ __author__ = 'God'
 
 class Solution:
     def GetUglyNumber_Solution(self, index):
+        if index == 0:
+            return 0
         res = [1]
         index2 = index3 = index5 = 0
         for i in range(1, index):
